@@ -132,13 +132,11 @@ main{
     font-size: 30px;
 }
 
-.cover-text a.join-btn{
-    display: block;
+.cover-text .join-btn{
     width: 250px;
     height: 80px;
     border-radius:40px;
     margin: 60px 0 0 0;
-    padding: 29px 100px 28px 35px;
     font-size: 20px;
     color: #fff;
     background-color: #000;
@@ -153,6 +151,16 @@ main{
 
 .cover-text p a{
     color: #000;
+}
+
+.arrow-btn{
+    display: flex;
+    padding: 34px;
+    align-items: center;
+}
+
+.arrow-btn span{
+    flex: 60%;
 }
 
 .site-options-container h2{
@@ -190,10 +198,11 @@ main{
 
 .site-option-item p{
     margin: 0 auto;
+    width:98%;
     font-size: 30px;
     color: #262626;
-    width: 330px;
     height: 114px;
+    font-weight: 100;
 }
 
 .site-option-item a{
@@ -208,8 +217,6 @@ main{
 
 .view-all-btn{
     margin: 132px auto 0 auto;
-    padding: 30px 0px 30px 40px;
-    display: block;
     width: 234px;
     height: 80px;
     font-size: 20px;
@@ -246,7 +253,30 @@ main{
     width: 480px;
     height: 480px;
     padding: 58px;
-    background: url('./asset/rewards-bg-1.png') no-repeat;
+}
+
+.redeem-points-item:nth-child(1){
+    background: url('./asset/reward-bg/rewards-bg-1.png') no-repeat;
+}
+
+.redeem-points-item:nth-child(2){
+    background: url('./asset/reward-bg/rewards-bg-2.png') no-repeat;
+}
+
+.redeem-points-item:nth-child(3){
+    background: url('./asset/reward-bg/rewards-bg-3.png') no-repeat;
+}
+
+.redeem-points-item:nth-child(4){
+    background: url('./asset/reward-bg/rewards-bg-4.png') no-repeat;
+}
+
+.redeem-points-item:nth-child(5){
+    background: url('./asset/reward-bg/rewards-bg-5.png') no-repeat;
+}
+
+.redeem-points-item:nth-child(6){
+    background: url('./asset/reward-bg/rewards-bg-6.png') no-repeat;
 }
 
 .redeem-points-item .item-logo{
@@ -265,7 +295,6 @@ main{
 }
 
 .redeem-btn{
-    display: inline-block;
     width: 272px;
     height: 72px;
     padding: 27px 45px;
