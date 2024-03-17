@@ -104,6 +104,10 @@ header{
 }
 
 /*main*/
+main{
+    margin-bottom: 100px;
+}
+
 .cover{
     position: relative;
     height: 720px;
@@ -202,7 +206,7 @@ header{
     border-radius: 40px;
 }
 
-.site-options-btn{
+.view-all-btn{
     margin: 132px auto 0 auto;
     padding: 30px 0px 30px 40px;
     display: block;
@@ -231,22 +235,28 @@ header{
     text-align: center;
 }
 
-.redeem-points-options{
-    width: 500px;
-    height: 500px;
+.redeem-points{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 58px;
     margin: 120px 150px 0 150px;
+}
+
+.redeem-points-item{
+    width: 480px;
+    height: 480px;
     padding: 58px;
     background: url('./asset/rewards-bg-1.png') no-repeat;
 }
 
-.redeem-points-options .item-logo{
+.redeem-points-item .item-logo{
     width: 101px;
     height: 101px;
     background-color: #fff;
     border-radius: 50%;
 }
 
-.redeem-points-options p{
+.redeem-points-item p{
     margin: 18px 0;
     font-size: 35px;
     font-weight: 100;
@@ -264,4 +274,94 @@ header{
     background-color: #986f38;
     text-decoration: none;
     border-radius: 45px;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 80px 70px 0 50px;
+    height: 923px;
+    background-color: #f1f1f1;
+}
+
+.footer-nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.footer-nav .logo-container{
+    width: 40%;
+    max-width: 720px;
+    min-width: 320px;
+    margin: 0 80px 0 0;
+}
+
+.footer-nav .logo-container .logo{
+    max-width: 420px;
+    width: 100%;
+}
+
+.footer-nav .logo-container .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer-nav-item h3{
+    width: 220px;
+    margin: 0 0 40px 0;
+    padding: 0 0 8px 0;
+    border-bottom: 4px solid #617c95;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footer-nav-item ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.footer-nav  .social-icons{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+}
+
+.footer-nav .social-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 65px;
+    height: 65px;
+    font-size: 28px;
+    color: #617c94;
+    border: 1px solid #617c94;
+    border-radius: 50%;
+}
+
+.legal-section-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 100px 0;
+    font-size: 18px;
+}
+
+.legal-section-container a{
+    color: #000;
+    text-decoration: none;
+}
+
+.legal-section{
+    width: 48%;
+    font-size: 18px;
+    display: flex;
+    gap: 50px;
 }
