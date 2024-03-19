@@ -111,14 +111,14 @@ main {
 
 .cover {
   position: relative;
-  height: 720px;
+  height: 574px;
   background: url("./asset/main-banner.png") no-repeat;
   background-size: contain;
 }
 
 .cover-text {
   position: absolute;
-  top: 160px;
+  top: 121px;
   left: 68px;
   width: 750px;
 }
@@ -169,8 +169,8 @@ main {
 }
 
 .site-options-container h2 {
-  margin: 124px 0 65px 0;
-  font-size: 54px;
+  margin: 85px 0 65px 0;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -193,8 +193,8 @@ main {
 }
 
 .site-option-item .item-logo {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   margin: 0 auto;
 }
 
@@ -205,7 +205,7 @@ main {
 }
 
 .site-option-item h3 {
-  font-size: 28px;
+  font-size: 26px;
   margin: 35px 0 23px 0;
   font-family: utile, sans-serif;
   font-weight: 700;
@@ -215,8 +215,8 @@ main {
 .site-option-item p {
   margin: 0 auto;
   width: 98%;
-  height: 50px;
-  font-size: 24px;
+  height: 60px;
+  font-size: 22px;
   color: #262626;
   font-family: utile, sans-serif;
   font-weight: 100;
@@ -226,13 +226,13 @@ main {
 
 .site-option-item a {
   display: inline-block;
-  margin: 40px 0 0 0;
-  padding: 24px 50px;
+  margin: 35px 0 0 0;
+  padding: 20px 50px;
   color: #fff;
   background-color: #986f38;
   text-decoration: none;
   border-radius: 40px;
-  font-size: 18px;
+  font-size: 15px;
   font-family: utile, sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -256,12 +256,12 @@ main {
 
 .redeem-points-container h2 {
   margin: 0 0 30px 0;
-  font-size: 54px;
+  font-size: 40px;
   text-align: center;
 }
 
 .redeem-points-container h4 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 100;
   color: #4d4e4e;
   text-align: center;
