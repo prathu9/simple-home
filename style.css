@@ -125,12 +125,12 @@ main {
 
 .cover-text h1 {
   margin: 0 0 25px 0;
-  font-size: 85px;
+  font-size: 65px;
   color: #5e7a92;
 }
 
 .cover-text h3 {
-  font-size: 30px;
+  font-size: 24px;
   font-family: americane, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -138,11 +138,11 @@ main {
 }
 
 .cover-text .join-btn {
-  width: 250px;
-  height: 80px;
+  width: 220px;
+  height: 70px;
   border-radius: 40px;
-  margin: 60px 0 0 0;
-  font-size: 20px;
+  margin: 50px 0 0 0;
+  font-size: 18px;
   color: #fff;
   background-color: #000;
   text-decoration: none;
@@ -150,7 +150,7 @@ main {
 
 .cover-text p {
   margin: 53px 0 0 0;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -175,8 +175,9 @@ main {
 }
 
 .site-options {
+  max-width: 1500px;
   display: flex;
-  margin: 0px 50px;
+  margin: 0px auto;
   column-gap: 54px;
   row-gap: 42px;
   flex-wrap: wrap;
@@ -184,9 +185,9 @@ main {
 }
 
 .site-option-item {
-  width: 480px;
-  height: 480px;
-  padding: 70px 18px 0 18px;
+  width: 400px;
+  height: 400px;
+  padding: 50px 18px 0 18px;
   text-align: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -204,7 +205,7 @@ main {
 }
 
 .site-option-item h3 {
-  font-size: 35px;
+  font-size: 28px;
   margin: 35px 0 23px 0;
   font-family: utile, sans-serif;
   font-weight: 700;
@@ -214,8 +215,8 @@ main {
 .site-option-item p {
   margin: 0 auto;
   width: 98%;
-  height: 80px;
-  font-size: 28px;
+  height: 50px;
+  font-size: 24px;
   color: #262626;
   font-family: utile, sans-serif;
   font-weight: 100;
@@ -226,12 +227,12 @@ main {
 .site-option-item a {
   display: inline-block;
   margin: 40px 0 0 0;
-  padding: 22px 68px 26px 68px;
+  padding: 24px 50px;
   color: #fff;
   background-color: #986f38;
   text-decoration: none;
   border-radius: 40px;
-  font-size: 22px;
+  font-size: 18px;
   font-family: utile, sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -240,9 +241,9 @@ main {
 
 .view-all-btn {
   margin: 132px auto 0 auto;
-  width: 228px;
-  height: 75px;
-  font-size: 20px;
+  width: 220px;
+  height: 65px;
+  font-size: 18px;
   color: #fff;
   text-decoration: none;
   background-color: #000;
@@ -271,13 +272,14 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 58px;
-  margin: 120px 50px 0 50px;
+  margin: 120px auto 0 auto;
+  max-width: 1500px;
 }
 
 .redeem-points-item {
-  width: 480px;
-  height: 480px;
-  padding: 58px;
+  width: 400px;
+  height: 400px;
+  padding: 48px;
 }
 
 .redeem-points-item:nth-child(1) {
@@ -305,17 +307,22 @@ main {
 }
 
 .redeem-points-item .item-logo {
-  width: 101px;
-  height: 101px;
+  width: 80px;
+  height: 80px;
   background-color: #fff;
   border-radius: 50%;
+}
+
+.redeem-points-item .item-logo img{
+  width: 100%;
+  height: 100%;
 }
 
 .redeem-points-item p {
   margin: 18px 0;
   color: #23282a;
-  min-height: 150px;
-  font-size: 32px;
+  min-height: 120px;
+  font-size: 26px;
   font-family: utile, sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -323,11 +330,11 @@ main {
 }
 
 .redeem-btn {
-  width: 272px;
-  height: 72px;
-  padding: 27px 45px;
+  width: 250px;
+  height: 65px;
+  padding: 24px 40px;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   background-color: #986f38;
   text-decoration: none;
   border-radius: 45px;
@@ -343,7 +350,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 100px;
-  padding: 80px 50px 0 50px;
+  padding: 80px 40px 0 40px;
   min-height: 923px;
   background-color: #f1f1f1;
 }
@@ -351,18 +358,25 @@ footer {
 .footer-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 100px;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.footer-nav-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .footer-nav .logo-container {
   width: 40%;
-  max-width: 520px;
+  max-width: 400px;
   min-width: 320px;
-  margin: 0 80px 0 0;
+  margin: 0 50px 0 0;
 }
 
 .footer-nav .logo-container .logo {
-  max-width: 420px;
+  max-width: 380px;
   width: 100%;
 }
 
@@ -400,9 +414,9 @@ footer {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 65px;
-  height: 65px;
-  font-size: 28px;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
   color: #617c94;
   border: 1px solid #617c94;
   border-radius: 50%;
